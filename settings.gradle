@@ -1,0 +1,4 @@
+rootProject.name = 'iso8583'
+include 'iso8583client'
+include 'iso8583server'
+

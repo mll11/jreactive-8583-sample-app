@@ -1,0 +1,3 @@
+apply plugin: 'application'
+
+mainClassName = "com.simplytapp.iso8583.iso8583server"

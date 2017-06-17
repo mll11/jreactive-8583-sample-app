@@ -1,0 +1,22 @@
+allprojects {
+    group 'com.simplytapp.iso8583'
+    version '1.0.0-SNAPSHOT'
+
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    repositories {
+        mavenLocal()
+
+        jcenter()
+    }
+
+    dependencies {
+        compile 'org.jreactive:netty-iso8583:0.2.2-SNAPSHOT'
+        compile 'org.slf4j:slf4j-simple:1.7.21'
+
+        testCompile 'junit:junit:4.12'
+    }
+}
