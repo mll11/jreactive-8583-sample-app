@@ -1,0 +1,23 @@
+# Generated files
+.gradle/
+bin/
+build/
+classes/
+gen/
+out/
+target/
+
+# Intellij IDEA config files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Backup files
+*~
+*.bak
+*.orig
+*.swp
+
+# Mac files
+.DS_Store
